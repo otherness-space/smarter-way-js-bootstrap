@@ -10,9 +10,7 @@ plugins:
 
 sass:
   load_paths:
-    # - scss
-    - sass_dir
-    # - _sass
+    - _sass
     - node_modules
 
 include:
