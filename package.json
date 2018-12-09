@@ -1,5 +1,5 @@
 {
-  "name": "smarter-way-js",
+  "name": "smarter-way-js-bootstrap",
   "version": "1.0.0",
   "description": "## Contents",
   "main": "index.js",
@@ -8,13 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/otherness-space/smarter-way-js.git"
+    "url": "git+https://github.com/otherness-space/smarter-way-js-bootstrap.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/otherness-space/smarter-way-js/issues"
+    "url": "https://github.com/otherness-space/smarter-way-js-bootstrap/issues"
   },
-  "homepage": "https://github.com/otherness-space/smarter-way-js#readme"
+  "homepage": "https://github.com/otherness-space/smarter-way-js-bootstrap#readme",
+  "devDependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6"
+  }
 }

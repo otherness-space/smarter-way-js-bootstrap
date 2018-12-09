@@ -10,10 +10,10 @@ plugins:
 
 sass:
   load_paths:
-    - scss
-    # - sass_dir
+    # - scss
+    - sass_dir
     # - _sass
-    # - node_modules
+    - node_modules
 
 include:
   - permalink: /404.html
