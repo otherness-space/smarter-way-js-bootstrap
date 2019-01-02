@@ -172,6 +172,7 @@ Third party resources applied in this repo. Each resource uses a GPL compatible 
     -   Sleek, inuitive, and powerful front-end framework for faster and easier web development.
     -   Copyright (c) 2011-2018 Twitter, Inc.
     -   Copyright (c) 2011-2018 The Bootstrap Authors
+
 [![Build Status](https://img.shields.io/travis/twbs/bootstrap/v4-dev.svg?style=social)](https://travis-ci.org/twbs/bootstrap) [![GitHub release](https://img.shields.io/github/release/twbs/bootstrap.svg?style=social)](https://github.com/twbs/bootstrap) [![npm version](https://img.shields.io/npm/v/bootstrap.svg?style=social)](https://www.npmjs.com/package/bootstrap) [![Gem version](https://img.shields.io/gem/v/bootstrap.svg?style=social)](https://rubygems.org/gems/bootstrap) [![GitHub forks](https://img.shields.io/github/forks/twbs/bootstrap.svg?style=social)](https://github.com/twbs/bootstrap/network) [![GitHub stars](https://img.shields.io/github/stars/twbs/bootstrap.svg?style=social)](https://github.com/twbs/bootstrap/stargazers) [![GitHub license](https://img.shields.io/github/license/twbs/bootstrap.svg?style=social)](https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE) [![devDependency Status](https://img.shields.io/david/dev/twbs/bootstrap.svg?style=social)](https://david-dm.org/twbs/bootstrap?type=dev)
 -   jQuery v3.3.1
     -   jQuery JavaScript Library
