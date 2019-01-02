@@ -1,13 +1,13 @@
-highlighter: none
+highlighter:   none
 # excerpt_separator: <!--more-->
-# markdown: kramdown
+# markdown:    kramdown
 plugins:
-  # deafault
+  # default
   # - jekyll-coffeescript
   # - jekyll-gist
   # - jekyll-github-metadata
   # - jekyll-paginate
-  # - jekyll-relative-links
+  - jekyll-relative-links
   # - jekyll-optional-front-matter
   # - jekyll-readme-index
   # - jekyll-default-layout
@@ -24,8 +24,11 @@ plugins:
 
 sass:
   load_paths:
-    - _sass
-    - node_modules
+    - scss
+    # - sass_dir
+    # - _sass
+    # - node_modules
+  style: compressed
 
 include:
   - permalink: /404.html
@@ -35,23 +38,18 @@ exclude:
   - node_modules
   - LICENSE
   - Makefile
-# - README.md
+  # - README.md
   - package.json
   - package-lock.json
   - yarn.lock
   - blank.html
   - assets/css/blank.css
   - assets/css/add-style.css
-  - assets/vendor/css/materialize.css
-  - assets/vendor/js/materialize.js
   - test
   - .eslintrc.js
   - .travis.yml
   - index.js
   - assets/css/prism.css
   # - assets/css/style.css
-  # Jekyll local build serve does not like prism.min.js
-  - assets/js/prism.min.js
-  # - assets/js/script.js.01.bak
-  # - assets/js/script.js.02.bak
+  - assets/js/prism.js
   # - assets/js/script.js
